@@ -1,0 +1,60 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(5, 5, 5);
+}
+
+
+
+#form{/* CONFIGURAÇÃO DA DIV FORM */
+    border: 1px solid magenta;
+    background-color: rgb(3, 3, 3);
+    padding:30px ;
+    max-width: 400px;
+    margin: 20px auto;
+    border-radius: 0px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    box-shadow: 5px 5px #5900ff;
+}
+
+
+h1{
+    margin: 0px 0px 20px;
+    color: magenta;
+    font-family: 'Poppins', sans-serif;
+    transition: all 0.3s ease-in-out;
+    font-size: xx-large;
+    text-transform: uppercase;
+    text-shadow: 4px 2px #5900ff;
+    
+
+}
+
+input[type='text'],
+input[type='email'],
+input[type='password'] { /* configuração dos inputs */
+    width: 100%;
+    border: none;
+    padding: 10px;
+    outline: none;
+    background: none;
+    color: magenta;
+    border-bottom: 1px solid #5900ff;
+    margin-bottom: 20px;
+}
+
+button.btn{
+    background-color: purple;
+    color: rgb(184, 184, 184);
+    border: none;
+    padding: 10px;
+    outline: none;
+    border-radius: 0px;
+    transition: all 0.3s ease-in-out;
+    box-shadow: 3px 3px #5900ff;
+}
+
