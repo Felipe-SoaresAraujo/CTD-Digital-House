@@ -1,6 +1,6 @@
 # SCRIPT DE BACKUP #
 
-echo ' --- Script de Backup iniciado! ---'
+echo '--- Script de Backup iniciado! ---'
 
 #para definir o diretorio que será copiado
 $origem = 'C:\ex_backup\arquivos'
@@ -12,5 +12,7 @@ $destino = New-Item -Path C:\ex_backup\Backup -ItemType Directory
 Copy-Item $origem -Destination $destino -Recurse -Verbose
 
 $date = Get-Date -Format "dd-MM-yyyy HH-mm-ss UTC_-03-00"
+
+Get-ChildItem $destino -Force #exibe a pasta copiada
 
 
